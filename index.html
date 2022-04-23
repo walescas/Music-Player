@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Poppins:wght@300;400&family=Prata&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Music Player</title>
+</head>
+<body>
+    <img class="capa" src="imagens/Let_Her_Go.jpg" alt="Let Her Go by Passenger">
+    <div class="descricao">
+        <h2>Let Her Go</h2>
+        <i class="name">Passenger</i>
+    </div>
+    <div class="duracao">
+        <div class="barra"> <progress value="0" max="1"></progress> 
+        <div class="ponto"></div>
+        </div>
+
+
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+
+    <div class="player">
+       
+        
+        <img class="setas anterior" src="svg icons/backward-solid.svg" alt="">
+        <img class="play" src="svg icons/play-solid.svg" alt="">
+        <img  class="pause" src="svg icons/pause-solid.svg" alt="">
+        <img class="setas proxima" src="svg icons/forward-solid.svg" alt="">
+        
+    </div>
+    <audio src="musicas/Passenger_-_Let_Her_Go_(BornMP3.com).mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
